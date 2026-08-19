@@ -101,11 +101,13 @@ print(path)
 
 ##################  File Extension ####################
 #DevOps mein tum is tarah sirf .log files identify kar sakte ho.
-
+"""
 filename = "server.log"
 name , file_extension = os.path.splitext(filename) #os.path.splitext() method splits the pathname into a pair (root, ext) such that root + ext == pathname, and ext is empty or begins with a period and contains at most one period. It returns a tuple containing the root and the extension of the file.
 print("File Name:", name)
 print("File Extension:", file_extension)    
+
+"""
 
 
 
