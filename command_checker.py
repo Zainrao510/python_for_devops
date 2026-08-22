@@ -2,7 +2,7 @@ import subprocess
 import shutil
 
 def command_checker(command, version="--version"):
-    if shutil.which(command) is None:
+    if shutil.which(command) is None:  #shutil.which() = "Ye command mere system mein available hai? Agar hai to kahan hai?"shutil.which() ka kaam hai check karna ke koi command/program system ke PATH mein available hai ya nahi.
         print(f"{command} is not installed: ")
         return
     try:

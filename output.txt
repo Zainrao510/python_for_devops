@@ -1,2 +1,2 @@
-This is a new line in the output file.
-This is an appended line in the output file.
+write the new txt 
+ add the new line
